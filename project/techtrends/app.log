@@ -1,0 +1,91 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.2.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:18:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:18:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:18, a new Article is created
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:18:55] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:18:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:47] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:20, An nexisting article is accessed, Article: 2020 CNCF Annual Report
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:55] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:20:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:21, An nexisting article is accessed, Article: Techtrend News
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:01] "GET /9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:21, An nexisting article is accessed, Article: Wonderful Python
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:04] "GET /8 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:21, About Us page is accessed
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:07] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 14:21, An nexisting article is accessed, Article: 2020 CNCF Annual Report
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:11] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.2.108 - - [16/Dec/2023 14:21:34] "[33mGET /notfound HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:12/16/2023, 15:14, An nexisting article is accessed, Article: 2020 CNCF Annual Report
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:18] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 15:14, a new Article is created
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:22] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:28] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:14:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:12/16/2023, 15:26, An nexisting article is accessed, Article: 2020 CNCF Annual Report
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:15] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:15] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 15:26, An nexisting article is accessed, Article: Kubernetes v1.20 Release Notes
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:17] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 15:26, About Us page is accessed
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:19] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:26:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:20] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:12/16/2023, 15:38, An nexisting article is accessed, Article: 2020 CNCF Annual Report
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:21] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 15:38, About Us page is accessed
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:24] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 15:38, a new Article is created
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:25] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:50] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 15:38:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.2.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:26] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:12/16/2023, 16:15, An nexisting article is accessed, Article: Another Test
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:31] "GET /12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:12/16/2023, 16:15, An nexisting article is accessed, Article: Another Test
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:35] "GET /12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2023 16:15:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
