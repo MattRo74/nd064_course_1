@@ -1,12 +1,12 @@
 namespace:
   name: sandbox
- 
+
  service:
    port: 4111
    targetPort: 3111
    protocol: TCP
    type: ClusterIP
- 
+
 image:
   repository: mattrohe/techtrends 
   tag: latest
